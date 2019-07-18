@@ -1,11 +1,17 @@
 {
+  "homepage": "https://github.com/pauzimny/Banner.git",
   "name": "banner",
   "version": "1.0.0",
   "description": "JS banner enables change slides using keys <-- or -->",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Paulina Zimny",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
