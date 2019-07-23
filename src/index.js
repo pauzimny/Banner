@@ -1,13 +1,15 @@
+import "../src/style.css";
 const image = document.querySelector("img.slider");
 const h1 = document.querySelector("h1.slider");
 const dots = [...document.querySelectorAll(".dots span")];
+
 const slideList = [
   {
-    img: "images/img1.jpg",
+    img: "images/img1.png",
     text: "First banner info"
   },
-  { img: "images/img2.jpg", text: "Second banner info" },
-  { img: "images/img3.jpg", text: "Third banner info" }
+  { img: "images/img2.png", text: "Second banner info" },
+  { img: "images/img3.png", text: "Third banner info" }
 ];
 
 const time = 4000;
