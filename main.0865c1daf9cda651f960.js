@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"* {\\n    margin: 0;\\n    padding: 0;\\n    box-sizing: border-box;\\n}\\n\\nheader {\\n    width: 100%;\\n    height: 100vh;\\n    position: relative;\\n    overflow: hidden;\\n}\\n\\nimg {\\n    position: absolute;\\n    min-width: 100%;\\n    min-height: 100%;\\n    position: absolute;\\n    top: 50%;\\n    left: 50%;\\n    transform: translate(-50%, -50%);\\n    /* opacity: 0.6; */\\n}\\n\\nh1 {\\n    position: absolute;\\n    top: 50%;\\n    left: 50%;\\n    width: 100%;\\n    transform: translate(-50%, -50%);\\n    font-size: 60px;\\n    padding: 5% 0;\\n    background-color: #000;\\n    color: #fff;\\n    letter-spacing: 3px;\\n    text-align: center;\\n    text-transform: uppercase;\\n    font-family: tahoma, sans-serif;\\n    text-shadow: 0 0 6px red;\\n    opacity: .8;\\n}\\n\\n.dots {\\n    position: absolute;\\n    bottom: 30px;\\n    left: 50%;\\n    transform: translateX(-50%)\\n}\\n\\n.dots span {\\n    display: inline-block;\\n    background-color: #000;\\n    margin: 0 20px;\\n    width: 30px;\\n    height: 30px;\\n    border-radius: 50%;\\n    box-shadow: 0 0 0 5px white;\\n}\\n\\n.dots span.active {\\n    box-shadow: 0 0 0 5px white, 0 0 3px 10px yellow;\\n}\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"* {\\n    margin: 0;\\n    padding: 0;\\n    box-sizing: border-box;\\n}\\n\\nheader {\\n    width: 100%;\\n    height: 100vh;\\n    position: relative;\\n    overflow: hidden;\\n}\\n\\nimg {\\n    position: absolute;\\n    min-width: 100%;\\n    min-height: 100%;\\n    position: absolute;\\n    top: 50%;\\n    left: 50%;\\n    transform: translate(-50%, -50%);\\n    /* opacity: 0.6; */\\n}\\n\\nh1 {\\n    position: absolute;\\n    top: 50%;\\n    left: 50%;\\n    width: 100%;\\n    transform: translate(-50%, -50%);\\n    font-size: 60px;\\n    padding: 5% 0;\\n    background-color: #000;\\n    color: #fff;\\n    letter-spacing: 3px;\\n    text-align: center;\\n    text-transform: uppercase;\\n    font-family: tahoma, sans-serif;\\n    text-shadow: 0 0 6px red;\\n    opacity: .8;\\n}\\n\\n.dots {\\n    position: absolute;\\n    bottom: 30px;\\n    left: 50%;\\n    transform: translateX(-50%);\\n    width: 80%;\\n}\\n\\n@media only screen and (min-width:768px) {\\n    .dots {\\n        width: 50%;\\n    }\\n}\\n\\n.dots span {\\n    display: inline-block;\\n    background-color: #000;\\n    margin: 0 20px;\\n    width: 30px;\\n    height: 30px;\\n    border-radius: 50%;\\n    box-shadow: 0 0 0 5px white;\\n}\\n\\n.dots span.active {\\n    box-shadow: 0 0 0 5px white, 0 0 3px 10px yellow;\\n}\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -131,39 +131,6 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 
 /***/ }),
 
-/***/ "./src/images/img1.png":
-/*!*****************************!*\
-  !*** ./src/images/img1.png ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"assets/images/img1.png\";\n\n//# sourceURL=webpack:///./src/images/img1.png?");
-
-/***/ }),
-
-/***/ "./src/images/img2.png":
-/*!*****************************!*\
-  !*** ./src/images/img2.png ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"assets/images/img2.png\";\n\n//# sourceURL=webpack:///./src/images/img2.png?");
-
-/***/ }),
-
-/***/ "./src/images/img3.png":
-/*!*****************************!*\
-  !*** ./src/images/img3.png ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"assets/images/img3.png\";\n\n//# sourceURL=webpack:///./src/images/img3.png?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -172,7 +139,7 @@ eval("module.exports = __webpack_require__.p + \"assets/images/img3.png\";\n\n//
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/style.css */ \"./src/style.css\");\n/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_style_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_img1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/img1.png */ \"./src/images/img1.png\");\n/* harmony import */ var _images_img1_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_img1_png__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _images_img2_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/img2.png */ \"./src/images/img2.png\");\n/* harmony import */ var _images_img2_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_img2_png__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _images_img3_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/img3.png */ \"./src/images/img3.png\");\n/* harmony import */ var _images_img3_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_img3_png__WEBPACK_IMPORTED_MODULE_3__);\nfunction _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }\n\nfunction _nonIterableSpread() { throw new TypeError(\"Invalid attempt to spread non-iterable instance\"); }\n\nfunction _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter); }\n\nfunction _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }\n\n\n\n\n\nvar image = document.querySelector(\"img.slider\");\nvar h1 = document.querySelector(\"h1.slider\");\n\nvar dots = _toConsumableArray(document.querySelectorAll(\".dots span\"));\n\nvar slideList = [{\n  img: \"images/img1.png\",\n  text: \"First banner info\"\n}, {\n  img: \"images/img2.png\",\n  text: \"Second banner info\"\n}, {\n  img: \"images/img3.png\",\n  text: \"Third banner info\"\n}];\nvar time = 4000;\nvar active = 0;\n\nvar changeDot = function changeDot() {\n  var activeDot = dots.findIndex(function (dot) {\n    return dot.classList.contains(\"active\");\n  });\n  dots[activeDot].classList.remove(\"active\");\n  dots[active].classList.add(\"active\");\n};\n\nvar changeSlide = function changeSlide() {\n  active++;\n\n  if (active === slideList.length) {\n    active = 0;\n  }\n\n  image.src = slideList[active].img;\n  h1.textContent = slideList[active].text;\n  changeDot();\n};\n\nvar intervalIndex = setInterval(changeSlide, time);\n\nvar keyChangeSlide = function keyChangeSlide(e) {\n  if (e.keyCode == 37 || e.keyCode == 39) {\n    clearInterval(intervalIndex);\n    e.keyCode == 37 ? active-- : active++;\n\n    if (active === slideList.length) {\n      active = 0;\n    } else if (active < 0) {\n      active = slideList.length - 1;\n    }\n\n    image.src = slideList[active].img;\n    h1.textContent = slideList[active].text;\n    changeDot();\n    intervalIndex = setInterval(changeSlide, time);\n  }\n};\n\nwindow.addEventListener(\"keydown\", keyChangeSlide);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/style.css */ \"./src/style.css\");\n/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_style_css__WEBPACK_IMPORTED_MODULE_0__);\nfunction _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }\n\nfunction _nonIterableSpread() { throw new TypeError(\"Invalid attempt to spread non-iterable instance\"); }\n\nfunction _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === \"[object Arguments]\") return Array.from(iter); }\n\nfunction _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }\n\n\nvar image = document.querySelector(\"img.slider\");\nvar h1 = document.querySelector(\"h1.slider\");\n\nvar dots = _toConsumableArray(document.querySelectorAll(\".dots span\"));\n\nvar slideList = [{\n  img: \"images/img1.png\",\n  text: \"First banner info\"\n}, {\n  img: \"images/img2.png\",\n  text: \"Second banner info\"\n}, {\n  img: \"images/img3.png\",\n  text: \"Third banner info\"\n}];\nvar time = 4000;\nvar active = 0;\n\nvar changeDot = function changeDot() {\n  var activeDot = dots.findIndex(function (dot) {\n    return dot.classList.contains(\"active\");\n  });\n  dots[activeDot].classList.remove(\"active\");\n  dots[active].classList.add(\"active\");\n};\n\nvar changeSlide = function changeSlide() {\n  active++;\n\n  if (active === slideList.length) {\n    active = 0;\n  }\n\n  image.src = slideList[active].img;\n  h1.textContent = slideList[active].text;\n  changeDot();\n};\n\nvar intervalIndex = setInterval(changeSlide, time);\n\nvar keyChangeSlide = function keyChangeSlide(e) {\n  if (e.keyCode == 37 || e.keyCode == 39) {\n    clearInterval(intervalIndex);\n    e.keyCode == 37 ? active-- : active++;\n\n    if (active === slideList.length) {\n      active = 0;\n    } else if (active < 0) {\n      active = slideList.length - 1;\n    }\n\n    image.src = slideList[active].img;\n    h1.textContent = slideList[active].text;\n    changeDot();\n    intervalIndex = setInterval(changeSlide, time);\n  }\n};\n\nwindow.addEventListener(\"keydown\", keyChangeSlide);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
