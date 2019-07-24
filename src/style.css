@@ -41,22 +41,15 @@ h1 {
 }
 
 .dots {
+    display: flex;
     position: absolute;
     bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    margin: 0 auto;
-}
-
-@media only screen and (min-width:768px) {
-    .dots {
-        width: 50%;
-    }
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .dots span {
-    display: inline-block;
     background-color: #000;
     margin: 0 20px;
     width: 30px;
